@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPV</title>
+    <link href="./css/style.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <h1>IPV</h1>
+    
+    <button id="añadir">añadir producto</button>
+    <button id="eliminar">eliminar producto</button>
+    <button><strong id="calcular">Calcular</strong></button>
+    <button>mover productos</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Productos</th>
+                <th>Precio</th>
+                <th>I</th>
+                <th>E</th>
+                <th>P.T</th>
+                <th>F</th>
+                <th>V</th>
+                <th>Importe</th>
+            </tr>
+        </thead>
+        <tbody id="tbodyipv">
+            <tr class="row1">
+                <td><input></td>
+                <td><input class="price" value="0" type="number" ></td>
+                <td><input class="initiation" value="0" type="number" ></td>
+                <td><input class="entry" value="0" type="number" ></td>
+                <td class="tprow"></td>
+                <td><input class="final" value="0" type="number" ></td>
+                <td class="salesrow"></td>
+                <td class="amountrow"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">Importe Total:</td>
+                <td class="totalAmount"></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Billete</th>
+                <th>Cantidad</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>$1000</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money0"></td>
+            </tr>
+            <tr>
+                <td>$500</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money1"></td>
+            </tr>
+            <tr>
+                <td>$200</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money2"></td>
+            </tr>
+            <tr>
+                <td>$100</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money3"></td>
+            </tr>
+            <tr>
+                <td>$50</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money4"></td>
+            </tr>
+            <tr>
+                <td>$20</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money5"></td>
+            </tr>
+            <tr>
+                <td>$10</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money6"></td>
+            </tr>
+            <tr>
+                <td>$5</td>
+                <td><input class="money" value="0" type="number"></td>
+                <td class="money7"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total:</td>
+                <td class="valortotal"></td>
+            </tr>
+        </tfoot>
+
+        <button id="calcularcash">Calcular</button>
+    </table>
+    <script src="./js/script.js"></script>
+</body>
+</html>
